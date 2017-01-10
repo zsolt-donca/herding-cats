@@ -6,6 +6,7 @@ addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.fu
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
 
 libraryDependencies += "org.typelevel" %% "cats" % "0.8.1"
+libraryDependencies += "org.typelevel" %% "kittens" % "1.0.0-M7"
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
 
 //libraryDependencies += "com.slamdata" %% "matryoshka-core" % "0.15.1"
